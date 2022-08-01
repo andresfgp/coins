@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-               BuildableName = "credit.app"
-               BlueprintName = "credit"
-               ReferencedContainer = "container:credit.xcodeproj">
+               BuildableName = "coins.app"
+               BlueprintName = "coins"
+               ReferencedContainer = "container:coins.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "00E356ED1AD99517003FC87E"
-               BuildableName = "creditTests.xctest"
-               BlueprintName = "creditTests"
-               ReferencedContainer = "container:credit.xcodeproj">
+               BuildableName = "coinsTests.xctest"
+               BlueprintName = "coinsTests"
+               ReferencedContainer = "container:coins.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,9 +55,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "credit.app"
-            BlueprintName = "credit"
-            ReferencedContainer = "container:credit.xcodeproj">
+            BuildableName = "coins.app"
+            BlueprintName = "coins"
+            ReferencedContainer = "container:coins.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -72,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "credit.app"
-            BlueprintName = "credit"
-            ReferencedContainer = "container:credit.xcodeproj">
+            BuildableName = "coins.app"
+            BlueprintName = "coins"
+            ReferencedContainer = "container:coins.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

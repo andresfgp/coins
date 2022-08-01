@@ -1,4 +1,4 @@
-package com.credit.newarchitecture;
+package com.myorg.coins.newarchitecture;
 
 import android.app.Application;
 import androidx.annotation.NonNull;
@@ -19,9 +19,9 @@ import com.facebook.react.fabric.CoreComponentsRegistry;
 import com.facebook.react.fabric.FabricJSIModuleProvider;
 import com.facebook.react.fabric.ReactNativeConfig;
 import com.facebook.react.uimanager.ViewManagerRegistry;
-import com.credit.BuildConfig;
-import com.credit.newarchitecture.components.MainComponentsRegistry;
-import com.credit.newarchitecture.modules.MainApplicationTurboModuleManagerDelegate;
+import com.myorg.coins.BuildConfig;
+import com.myorg.coins.newarchitecture.components.MainComponentsRegistry;
+import com.myorg.coins.newarchitecture.modules.MainApplicationTurboModuleManagerDelegate;
 import java.util.ArrayList;
 import java.util.List;
 

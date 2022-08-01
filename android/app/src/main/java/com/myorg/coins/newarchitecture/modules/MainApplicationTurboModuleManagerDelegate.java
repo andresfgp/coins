@@ -1,4 +1,4 @@
-package com.credit.newarchitecture.modules;
+package com.myorg.coins.newarchitecture.modules;
 
 import com.facebook.jni.HybridData;
 import com.facebook.react.ReactPackage;
