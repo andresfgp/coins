@@ -12,7 +12,7 @@ const App = () => {
   return (
     <NavigationContainer>
       <Tabs.Navigator
-        tabBarOptions={{
+        screenOptions={{
           tintColor: '#fefefe',
           style: {
             backgroundColor: Colors.blackPearl,
