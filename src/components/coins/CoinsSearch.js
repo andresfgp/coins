@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {TextInput, Platform, View, StyleSheet} from 'react-native';
-import Colors from 'credit/src/res/colors';
+import Colors from 'coins/src/res/colors';
 
 class CoinsSearch extends Component {
   state = {

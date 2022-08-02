@@ -1,10 +1,10 @@
 import React from 'react';
 import {Image} from 'react-native';
 import {NavigationContainer} from '@react-navigation/native';
-import CoinsStack from 'credit/src/components/coins/CoinsStack';
-import FavoritesStack from 'credit/src/components/favorites/FavoritesStack';
+import CoinsStack from 'coins/src/components/coins/CoinsStack';
+import FavoritesStack from 'coins/src/components/favorites/FavoritesStack';
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
-import Colors from 'credit/src/res/colors';
+import Colors from 'coins/src/res/colors';
 
 const Tabs = createBottomTabNavigator();
 
@@ -25,7 +25,7 @@ const App = () => {
             tabBarIcon: ({size, color}) => (
               <Image
                 style={{tintColor: color, width: size, height: size}}
-                source={require('credit/src/assets/bank.png')}
+                source={require('coins/src/assets/bank.png')}
               />
             ),
           }}
@@ -38,7 +38,7 @@ const App = () => {
             tabBarIcon: ({size, color}) => (
               <Image
                 style={{tintColor: color, width: size, height: size}}
-                source={require('credit/src/assets/star.png')}
+                source={require('coins/src/assets/star.png')}
               />
             ),
           }}

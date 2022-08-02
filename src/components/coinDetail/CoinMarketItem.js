@@ -1,6 +1,6 @@
 import React from 'react';
 import {View, Text, StyleSheet} from 'react-native';
-import Colors from 'credit/src/res/colors';
+import Colors from 'coins/src/res/colors';
 
 const CoinDetailScreen = ({item}) => {
   return (

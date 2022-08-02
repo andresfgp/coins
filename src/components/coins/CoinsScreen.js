@@ -6,10 +6,10 @@ import {
   Text,
   StyleSheet,
 } from 'react-native';
-import Http from 'credit/src/libs/http';
+import Http from 'coins/src/libs/http';
 import CoinsItem from './CoinsItem';
 import CoinsSearch from './CoinsSearch';
-import Colors from 'credit/src/res/colors';
+import Colors from 'coins/src/res/colors';
 
 class CoinsScreen extends Component {
   state = {

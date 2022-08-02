@@ -1,7 +1,7 @@
 import React from 'react';
 import {createStackNavigator} from '@react-navigation/stack';
 import FavoritesScreen from './FavoritesScreen';
-import Colors from 'credit/src/res/colors';
+import Colors from 'coins/src/res/colors';
 
 const Stack = createStackNavigator();
 

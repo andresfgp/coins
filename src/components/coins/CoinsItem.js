@@ -1,15 +1,15 @@
 /* eslint-disable no-undef */
 import React from 'react';
 import {View, Text, Pressable, Image, StyleSheet, Platform} from 'react-native';
-import Colors from 'credit/src/res/colors';
+import Colors from 'coins/src/res/colors';
 
 const CoinsItem = ({item, onPress}) => {
   // eslint-disable-next-line no-undef
   getImgArrow = () => {
     if (item.percent_change_1h > 0) {
-      return require('credit/src/assets/arrow_up.png');
+      return require('coins/src/assets/arrow_up.png');
     } else {
-      return require('credit/src/assets/arrow_down.png');
+      return require('coins/src/assets/arrow_down.png');
     }
   };
 

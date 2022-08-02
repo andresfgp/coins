@@ -9,9 +9,9 @@ import {
   StyleSheet,
   Alert,
 } from 'react-native';
-import Colors from 'credit/src/res/colors';
-import Http from 'credit/src/libs/http';
-import Storage from 'credit/src/libs/storage';
+import Colors from 'coins/src/res/colors';
+import Http from 'coins/src/libs/http';
+import Storage from 'coins/src/libs/storage';
 import CoinMarketItem from './CoinMarketItem';
 
 class CoinDetailScreen extends Component {

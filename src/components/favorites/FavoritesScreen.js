@@ -2,10 +2,10 @@ import React, {Component} from 'react';
 import {View, FlatList, StyleSheet} from 'react-native';
 
 import FavoritesEmptyState from './FavoritesEmptyState';
-import CoinsItem from 'credit/src/components/coins/CoinsItem';
+import CoinsItem from 'coins/src/components/coins/CoinsItem';
 
-import Colors from 'credit/src/res/colors';
-import Storage from 'credit/src/libs/storage';
+import Colors from 'coins/src/res/colors';
+import Storage from 'coins/src/libs/storage';
 
 class FavoritesScreen extends Component {
   state = {
